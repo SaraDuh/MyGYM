@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		041FA6432157B3E000EABD3F /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041FA6422157B3E000EABD3F /* ProfileViewController.swift */; };
+		041FA6452157B44F00EABD3F /* InBodyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041FA6442157B44F00EABD3F /* InBodyViewController.swift */; };
+		04298AEB21695AAF005D6F47 /* MembelScheduleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04298AEA21695AAF005D6F47 /* MembelScheduleTableViewCell.swift */; };
+		0494D50D215CA97B00CB7DD1 /* AdminWeeklyScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0494D50C215CA97B00CB7DD1 /* AdminWeeklyScheduleViewController.swift */; };
+		0494D50F215D1B0C00CB7DD1 /* AdminWeeklyScheduleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0494D50E215D1B0C00CB7DD1 /* AdminWeeklyScheduleTableViewCell.swift */; };
+		0494D511215D1CB200CB7DD1 /* ClassModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0494D510215D1CB200CB7DD1 /* ClassModel.swift */; };
+		3E3938AE54529F652123A2CF /* Pods_MyGYM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3F96EA5D255047F9494DB5B /* Pods_MyGYM.framework */; };
+		5666E2A8216BA34B00A1EA9D /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5666E2A7216BA34B00A1EA9D /* EditProfileViewController.swift */; };
+		56A93CE8218DCC570012D361 /* TrainerProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A93CE7218DCC560012D361 /* TrainerProfileViewController.swift */; };
+		56A93CEA218DD0CA0012D361 /* TrainerEditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A93CE9218DD0CA0012D361 /* TrainerEditProfileViewController.swift */; };
+		95771F0E219F68FB00D3B84F /* TrainerWeeklyScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95771F0D219F68FB00D3B84F /* TrainerWeeklyScheduleViewController.swift */; };
+		95771F10219F6ABB00D3B84F /* TrainerScheduleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95771F0F219F6ABB00D3B84F /* TrainerScheduleTableViewCell.swift */; };
+		95771F12219F6FBC00D3B84F /* TrainerInBodyReservationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95771F11219F6FBC00D3B84F /* TrainerInBodyReservationsViewController.swift */; };
+		95771F14219F701100D3B84F /* TrainerInbodyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95771F13219F701100D3B84F /* TrainerInbodyTableViewCell.swift */; };
+		95771F16219F73F500D3B84F /* TrainerClassReservationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95771F15219F73F400D3B84F /* TrainerClassReservationTableViewCell.swift */; };
+		95771F18219F741000D3B84F /* TrainerClassReservationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95771F17219F741000D3B84F /* TrainerClassReservationViewController.swift */; };
+		95894E15219485F90069DCFF /* AdminViewClassReservationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95894E14219485F90069DCFF /* AdminViewClassReservationViewController.swift */; };
+		95894E17219487440069DCFF /* AdminViewClassReservationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95894E16219487440069DCFF /* AdminViewClassReservationTableViewCell.swift */; };
+		95894E19219489440069DCFF /* ReservationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95894E18219489440069DCFF /* ReservationModel.swift */; };
+		95894E1B219490FF0069DCFF /* MemberMyClassesReservationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95894E1A219490FF0069DCFF /* MemberMyClassesReservationViewController.swift */; };
+		95894E1D2194915A0069DCFF /* MemberClassReservationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95894E1C2194915A0069DCFF /* MemberClassReservationTableViewCell.swift */; };
+		95E019E3218C538700A68E74 /* AdminInBodyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E019E2218C538700A68E74 /* AdminInBodyViewController.swift */; };
+		95E019E5218C553400A68E74 /* AdminInBodyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E019E4218C553400A68E74 /* AdminInBodyTableViewCell.swift */; };
+		95E019E7218C55D800A68E74 /* InBodyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E019E6218C55D800A68E74 /* InBodyModel.swift */; };
+		95E019E9218C6A1000A68E74 /* MemberMyInBodiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E019E8218C6A1000A68E74 /* MemberMyInBodiesViewController.swift */; };
+		95E019EB218C6BF800A68E74 /* MemberInbodyCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E019EA218C6BF800A68E74 /* MemberInbodyCellTableViewCell.swift */; };
+		A55E58BA215B6FB4000E3090 /* TrainerHomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55E58B9215B6FB4000E3090 /* TrainerHomePageViewController.swift */; };
+		A55E58BC215B6FD4000E3090 /* AdmonHomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55E58BB215B6FD4000E3090 /* AdmonHomePageViewController.swift */; };
+		E8440CCC215EA74A00022C6D /* AdminManageAccountsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8440CCB215EA74A00022C6D /* AdminManageAccountsViewController.swift */; };
+		E8440CD0215EAB4B00022C6D /* AdminCreateNewMemberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8440CCF215EAB4B00022C6D /* AdminCreateNewMemberViewController.swift */; };
+		E8440CD2215EAB8300022C6D /* AdminCreateNewTrainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8440CD1215EAB8300022C6D /* AdminCreateNewTrainerViewController.swift */; };
+		E846AFD221785FA600C68F14 /* TrainerWeeklyPlanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E846AFD121785FA600C68F14 /* TrainerWeeklyPlanViewController.swift */; };
+		E846AFD4217862CB00C68F14 /* WorkoutPlanModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E846AFD3217862CB00C68F14 /* WorkoutPlanModel.swift */; };
+		E8CFEBDA215AACE700B8A17A /* WeeklyPlanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CFEBD9215AACE700B8A17A /* WeeklyPlanViewController.swift */; };
+		E8CFEBDC215AC0F100B8A17A /* WeeklyScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CFEBDB215AC0F100B8A17A /* WeeklyScheduleViewController.swift */; };
+		E8DFC1BB215508C700AD22B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DFC1BA215508C700AD22B0 /* AppDelegate.swift */; };
+		E8DFC1C0215508C700AD22B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8DFC1BE215508C700AD22B0 /* Main.storyboard */; };
+		E8DFC1C2215508C800AD22B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8DFC1C1215508C800AD22B0 /* Assets.xcassets */; };
+		E8DFC1C5215508C800AD22B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8DFC1C3215508C800AD22B0 /* LaunchScreen.storyboard */; };
+		E8DFC1CD215509C500AD22B0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E8DFC1CC215509C500AD22B0 /* GoogleService-Info.plist */; };
+		E8DFC1D6215558A900AD22B0 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DFC1D5215558A900AD22B0 /* LogInViewController.swift */; };
+		E8DFC1DA21555A4400AD22B0 /* WelcomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DFC1D921555A4400AD22B0 /* WelcomeController.swift */; };
+		E8DFC1DE2155719100AD22B0 /* AgainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DFC1DD2155719100AD22B0 /* AgainViewController.swift */; };
+		E8DFC1E02156BAAA00AD22B0 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DFC1DF2156BAAA00AD22B0 /* UserModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		041FA6422157B3E000EABD3F /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProfileViewController.swift; path = MyGYM/Controller/ProfileViewController.swift; sourceTree = SOURCE_ROOT; };
+		041FA6442157B44F00EABD3F /* InBodyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InBodyViewController.swift; sourceTree = "<group>"; };
+		04298AEA21695AAF005D6F47 /* MembelScheduleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MembelScheduleTableViewCell.swift; path = MyGYM/Controller/MembelScheduleTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		0494D50C215CA97B00CB7DD1 /* AdminWeeklyScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminWeeklyScheduleViewController.swift; sourceTree = "<group>"; };
+		0494D50E215D1B0C00CB7DD1 /* AdminWeeklyScheduleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminWeeklyScheduleTableViewCell.swift; sourceTree = "<group>"; };
+		0494D510215D1CB200CB7DD1 /* ClassModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ClassModel.swift; path = MyGYM/Model/ClassModel.swift; sourceTree = SOURCE_ROOT; };
+		5666E2A7216BA34B00A1EA9D /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		56A93CE7218DCC560012D361 /* TrainerProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainerProfileViewController.swift; sourceTree = "<group>"; };
+		56A93CE9218DD0CA0012D361 /* TrainerEditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainerEditProfileViewController.swift; sourceTree = "<group>"; };
+		95771F0D219F68FB00D3B84F /* TrainerWeeklyScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TrainerWeeklyScheduleViewController.swift; path = MyGYM/Controller/TrainerWeeklyScheduleViewController.swift; sourceTree = SOURCE_ROOT; };
+		95771F0F219F6ABB00D3B84F /* TrainerScheduleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TrainerScheduleTableViewCell.swift; path = MyGYM/Controller/TrainerScheduleTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		95771F11219F6FBC00D3B84F /* TrainerInBodyReservationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainerInBodyReservationsViewController.swift; sourceTree = "<group>"; };
+		95771F13219F701100D3B84F /* TrainerInbodyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainerInbodyTableViewCell.swift; sourceTree = "<group>"; };
+		95771F15219F73F400D3B84F /* TrainerClassReservationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainerClassReservationTableViewCell.swift; sourceTree = "<group>"; };
+		95771F17219F741000D3B84F /* TrainerClassReservationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainerClassReservationViewController.swift; sourceTree = "<group>"; };
+		95894E14219485F90069DCFF /* AdminViewClassReservationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminViewClassReservationViewController.swift; sourceTree = "<group>"; };
+		95894E16219487440069DCFF /* AdminViewClassReservationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AdminViewClassReservationTableViewCell.swift; path = MyGYM/Controller/AdminViewClassReservationTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		95894E18219489440069DCFF /* ReservationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationModel.swift; sourceTree = "<group>"; };
+		95894E1A219490FF0069DCFF /* MemberMyClassesReservationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberMyClassesReservationViewController.swift; sourceTree = "<group>"; };
+		95894E1C2194915A0069DCFF /* MemberClassReservationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberClassReservationTableViewCell.swift; sourceTree = "<group>"; };
+		95E019E2218C538700A68E74 /* AdminInBodyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminInBodyViewController.swift; sourceTree = "<group>"; };
+		95E019E4218C553400A68E74 /* AdminInBodyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminInBodyTableViewCell.swift; sourceTree = "<group>"; };
+		95E019E6218C55D800A68E74 /* InBodyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InBodyModel.swift; sourceTree = "<group>"; };
+		95E019E8218C6A1000A68E74 /* MemberMyInBodiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberMyInBodiesViewController.swift; sourceTree = "<group>"; };
+		95E019EA218C6BF800A68E74 /* MemberInbodyCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberInbodyCellTableViewCell.swift; sourceTree = "<group>"; };
+		A55E58B9215B6FB4000E3090 /* TrainerHomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainerHomePageViewController.swift; sourceTree = "<group>"; };
+		A55E58BB215B6FD4000E3090 /* AdmonHomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdmonHomePageViewController.swift; sourceTree = "<group>"; };
+		C3F96EA5D255047F9494DB5B /* Pods_MyGYM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyGYM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBE8EB36D6DBD2F8EC3BDC1A /* Pods-MyGYM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyGYM.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyGYM/Pods-MyGYM.release.xcconfig"; sourceTree = "<group>"; };
+		E2AFE8AD516CB4E5CF9C9396 /* Pods-MyGYM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyGYM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyGYM/Pods-MyGYM.debug.xcconfig"; sourceTree = "<group>"; };
+		E8440CCB215EA74A00022C6D /* AdminManageAccountsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminManageAccountsViewController.swift; sourceTree = "<group>"; };
+		E8440CCF215EAB4B00022C6D /* AdminCreateNewMemberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminCreateNewMemberViewController.swift; sourceTree = "<group>"; };
+		E8440CD1215EAB8300022C6D /* AdminCreateNewTrainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminCreateNewTrainerViewController.swift; sourceTree = "<group>"; };
+		E846AFD121785FA600C68F14 /* TrainerWeeklyPlanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainerWeeklyPlanViewController.swift; sourceTree = "<group>"; };
+		E846AFD3217862CB00C68F14 /* WorkoutPlanModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutPlanModel.swift; sourceTree = "<group>"; };
+		E8CFEBD9215AACE700B8A17A /* WeeklyPlanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyPlanViewController.swift; sourceTree = "<group>"; };
+		E8CFEBDB215AC0F100B8A17A /* WeeklyScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyScheduleViewController.swift; sourceTree = "<group>"; };
+		E8DFC1B7215508C700AD22B0 /* MyGYM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyGYM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8DFC1BA215508C700AD22B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E8DFC1BF215508C700AD22B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E8DFC1C1215508C800AD22B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E8DFC1C4215508C800AD22B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E8DFC1CC215509C500AD22B0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E8DFC1CE21550F3000AD22B0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8DFC1D5215558A900AD22B0 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		E8DFC1D921555A4400AD22B0 /* WelcomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeController.swift; sourceTree = "<group>"; };
+		E8DFC1DD2155719100AD22B0 /* AgainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgainViewController.swift; sourceTree = "<group>"; };
+		E8DFC1DF2156BAAA00AD22B0 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E8DFC1B4215508C700AD22B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E3938AE54529F652123A2CF /* Pods_MyGYM.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		90EF302108D8B9B724360597 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E2AFE8AD516CB4E5CF9C9396 /* Pods-MyGYM.debug.xcconfig */,
+				DBE8EB36D6DBD2F8EC3BDC1A /* Pods-MyGYM.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		982F3B68E1651336EE9368D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3F96EA5D255047F9494DB5B /* Pods_MyGYM.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E8DFC1AE215508C700AD22B0 = {
+			isa = PBXGroup;
+			children = (
+				E8DFC1B9215508C700AD22B0 /* MyGYM */,
+				E8DFC1B8215508C700AD22B0 /* Products */,
+				90EF302108D8B9B724360597 /* Pods */,
+				982F3B68E1651336EE9368D8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E8DFC1B8215508C700AD22B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8DFC1B7215508C700AD22B0 /* MyGYM.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E8DFC1B9215508C700AD22B0 /* MyGYM */ = {
+			isa = PBXGroup;
+			children = (
+				E8DFC1D121552F7B00AD22B0 /* View */,
+				E8DFC1D221552F8900AD22B0 /* Controller */,
+				E8DFC1D021552F4100AD22B0 /* Model */,
+				E8DFC1C1215508C800AD22B0 /* Assets.xcassets */,
+				E8DFC1CE21550F3000AD22B0 /* Info.plist */,
+				E8DFC1CC215509C500AD22B0 /* GoogleService-Info.plist */,
+			);
+			path = MyGYM;
+			sourceTree = "<group>";
+		};
+		E8DFC1D021552F4100AD22B0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				95E019E6218C55D800A68E74 /* InBodyModel.swift */,
+				E8DFC1DF2156BAAA00AD22B0 /* UserModel.swift */,
+				0494D510215D1CB200CB7DD1 /* ClassModel.swift */,
+				E846AFD3217862CB00C68F14 /* WorkoutPlanModel.swift */,
+				95894E18219489440069DCFF /* ReservationModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E8DFC1D121552F7B00AD22B0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E8DFC1C3215508C800AD22B0 /* LaunchScreen.storyboard */,
+				E8DFC1BE215508C700AD22B0 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E8DFC1D221552F8900AD22B0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				041FA6422157B3E000EABD3F /* ProfileViewController.swift */,
+				E8DFC1BA215508C700AD22B0 /* AppDelegate.swift */,
+				E8DFC1D921555A4400AD22B0 /* WelcomeController.swift */,
+				E8DFC1D5215558A900AD22B0 /* LogInViewController.swift */,
+				E8DFC1DD2155719100AD22B0 /* AgainViewController.swift */,
+				041FA6442157B44F00EABD3F /* InBodyViewController.swift */,
+				E8CFEBD9215AACE700B8A17A /* WeeklyPlanViewController.swift */,
+				E8CFEBDB215AC0F100B8A17A /* WeeklyScheduleViewController.swift */,
+				04298AEA21695AAF005D6F47 /* MembelScheduleTableViewCell.swift */,
+				A55E58B9215B6FB4000E3090 /* TrainerHomePageViewController.swift */,
+				A55E58BB215B6FD4000E3090 /* AdmonHomePageViewController.swift */,
+				0494D50C215CA97B00CB7DD1 /* AdminWeeklyScheduleViewController.swift */,
+				0494D50E215D1B0C00CB7DD1 /* AdminWeeklyScheduleTableViewCell.swift */,
+				E8440CCB215EA74A00022C6D /* AdminManageAccountsViewController.swift */,
+				E8440CCF215EAB4B00022C6D /* AdminCreateNewMemberViewController.swift */,
+				E8440CD1215EAB8300022C6D /* AdminCreateNewTrainerViewController.swift */,
+				5666E2A7216BA34B00A1EA9D /* EditProfileViewController.swift */,
+				E846AFD121785FA600C68F14 /* TrainerWeeklyPlanViewController.swift */,
+				95E019E2218C538700A68E74 /* AdminInBodyViewController.swift */,
+				95E019E4218C553400A68E74 /* AdminInBodyTableViewCell.swift */,
+				95E019E8218C6A1000A68E74 /* MemberMyInBodiesViewController.swift */,
+				95E019EA218C6BF800A68E74 /* MemberInbodyCellTableViewCell.swift */,
+				56A93CE7218DCC560012D361 /* TrainerProfileViewController.swift */,
+				56A93CE9218DD0CA0012D361 /* TrainerEditProfileViewController.swift */,
+				95894E14219485F90069DCFF /* AdminViewClassReservationViewController.swift */,
+				95894E16219487440069DCFF /* AdminViewClassReservationTableViewCell.swift */,
+				95894E1A219490FF0069DCFF /* MemberMyClassesReservationViewController.swift */,
+				95894E1C2194915A0069DCFF /* MemberClassReservationTableViewCell.swift */,
+				95771F0D219F68FB00D3B84F /* TrainerWeeklyScheduleViewController.swift */,
+				95771F0F219F6ABB00D3B84F /* TrainerScheduleTableViewCell.swift */,
+				95771F11219F6FBC00D3B84F /* TrainerInBodyReservationsViewController.swift */,
+				95771F13219F701100D3B84F /* TrainerInbodyTableViewCell.swift */,
+				95771F17219F741000D3B84F /* TrainerClassReservationViewController.swift */,
+				95771F15219F73F400D3B84F /* TrainerClassReservationTableViewCell.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E8DFC1B6215508C700AD22B0 /* MyGYM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8DFC1C9215508C800AD22B0 /* Build configuration list for PBXNativeTarget "MyGYM" */;
+			buildPhases = (
+				852665D080ACEE2DD669459E /* [CP] Check Pods Manifest.lock */,
+				E8DFC1B3215508C700AD22B0 /* Sources */,
+				E8DFC1B4215508C700AD22B0 /* Frameworks */,
+				E8DFC1B5215508C700AD22B0 /* Resources */,
+				2EA1AA8A3B04292F81A14784 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyGYM;
+			productName = MyGYM;
+			productReference = E8DFC1B7215508C700AD22B0 /* MyGYM.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E8DFC1AF215508C700AD22B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Aseel Mohimeed";
+				TargetAttributes = {
+					E8DFC1B6215508C700AD22B0 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = E8DFC1B2215508C700AD22B0 /* Build configuration list for PBXProject "MyGYM" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E8DFC1AE215508C700AD22B0;
+			productRefGroup = E8DFC1B8215508C700AD22B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E8DFC1B6215508C700AD22B0 /* MyGYM */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E8DFC1B5215508C700AD22B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8DFC1C5215508C800AD22B0 /* LaunchScreen.storyboard in Resources */,
+				E8DFC1CD215509C500AD22B0 /* GoogleService-Info.plist in Resources */,
+				E8DFC1C2215508C800AD22B0 /* Assets.xcassets in Resources */,
+				E8DFC1C0215508C700AD22B0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2EA1AA8A3B04292F81A14784 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MyGYM/Pods-MyGYM-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyGYM/Pods-MyGYM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		852665D080ACEE2DD669459E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyGYM-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E8DFC1B3215508C700AD22B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95E019E7218C55D800A68E74 /* InBodyModel.swift in Sources */,
+				95771F16219F73F500D3B84F /* TrainerClassReservationTableViewCell.swift in Sources */,
+				56A93CEA218DD0CA0012D361 /* TrainerEditProfileViewController.swift in Sources */,
+				E846AFD4217862CB00C68F14 /* WorkoutPlanModel.swift in Sources */,
+				95E019E9218C6A1000A68E74 /* MemberMyInBodiesViewController.swift in Sources */,
+				041FA6452157B44F00EABD3F /* InBodyViewController.swift in Sources */,
+				A55E58BA215B6FB4000E3090 /* TrainerHomePageViewController.swift in Sources */,
+				E8440CCC215EA74A00022C6D /* AdminManageAccountsViewController.swift in Sources */,
+				95894E17219487440069DCFF /* AdminViewClassReservationTableViewCell.swift in Sources */,
+				0494D511215D1CB200CB7DD1 /* ClassModel.swift in Sources */,
+				95E019E3218C538700A68E74 /* AdminInBodyViewController.swift in Sources */,
+				95771F12219F6FBC00D3B84F /* TrainerInBodyReservationsViewController.swift in Sources */,
+				95894E1D2194915A0069DCFF /* MemberClassReservationTableViewCell.swift in Sources */,
+				04298AEB21695AAF005D6F47 /* MembelScheduleTableViewCell.swift in Sources */,
+				5666E2A8216BA34B00A1EA9D /* EditProfileViewController.swift in Sources */,
+				E8DFC1D6215558A900AD22B0 /* LogInViewController.swift in Sources */,
+				95E019E5218C553400A68E74 /* AdminInBodyTableViewCell.swift in Sources */,
+				95771F14219F701100D3B84F /* TrainerInbodyTableViewCell.swift in Sources */,
+				A55E58BC215B6FD4000E3090 /* AdmonHomePageViewController.swift in Sources */,
+				E8DFC1DE2155719100AD22B0 /* AgainViewController.swift in Sources */,
+				E8DFC1DA21555A4400AD22B0 /* WelcomeController.swift in Sources */,
+				0494D50F215D1B0C00CB7DD1 /* AdminWeeklyScheduleTableViewCell.swift in Sources */,
+				0494D50D215CA97B00CB7DD1 /* AdminWeeklyScheduleViewController.swift in Sources */,
+				95771F18219F741000D3B84F /* TrainerClassReservationViewController.swift in Sources */,
+				95771F10219F6ABB00D3B84F /* TrainerScheduleTableViewCell.swift in Sources */,
+				95894E19219489440069DCFF /* ReservationModel.swift in Sources */,
+				041FA6432157B3E000EABD3F /* ProfileViewController.swift in Sources */,
+				E8CFEBDA215AACE700B8A17A /* WeeklyPlanViewController.swift in Sources */,
+				E846AFD221785FA600C68F14 /* TrainerWeeklyPlanViewController.swift in Sources */,
+				95771F0E219F68FB00D3B84F /* TrainerWeeklyScheduleViewController.swift in Sources */,
+				E8440CD0215EAB4B00022C6D /* AdminCreateNewMemberViewController.swift in Sources */,
+				E8DFC1E02156BAAA00AD22B0 /* UserModel.swift in Sources */,
+				E8CFEBDC215AC0F100B8A17A /* WeeklyScheduleViewController.swift in Sources */,
+				E8DFC1BB215508C700AD22B0 /* AppDelegate.swift in Sources */,
+				95894E1B219490FF0069DCFF /* MemberMyClassesReservationViewController.swift in Sources */,
+				E8440CD2215EAB8300022C6D /* AdminCreateNewTrainerViewController.swift in Sources */,
+				56A93CE8218DCC570012D361 /* TrainerProfileViewController.swift in Sources */,
+				95E019EB218C6BF800A68E74 /* MemberInbodyCellTableViewCell.swift in Sources */,
+				95894E15219485F90069DCFF /* AdminViewClassReservationViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E8DFC1BE215508C700AD22B0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8DFC1BF215508C700AD22B0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E8DFC1C3215508C800AD22B0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8DFC1C4215508C800AD22B0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E8DFC1C7215508C800AD22B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E8DFC1C8215508C800AD22B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E8DFC1CA215508C800AD22B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2AFE8AD516CB4E5CF9C9396 /* Pods-MyGYM.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H52BZT8A63;
+				INFOPLIST_FILE = "$(SRCROOT)/MyGYM/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Sara.MyGYM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E8DFC1CB215508C800AD22B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBE8EB36D6DBD2F8EC3BDC1A /* Pods-MyGYM.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H52BZT8A63;
+				INFOPLIST_FILE = "$(SRCROOT)/MyGYM/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Sara.MyGYM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E8DFC1B2215508C700AD22B0 /* Build configuration list for PBXProject "MyGYM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8DFC1C7215508C800AD22B0 /* Debug */,
+				E8DFC1C8215508C800AD22B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8DFC1C9215508C800AD22B0 /* Build configuration list for PBXNativeTarget "MyGYM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8DFC1CA215508C800AD22B0 /* Debug */,
+				E8DFC1CB215508C800AD22B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E8DFC1AF215508C700AD22B0 /* Project object */;
+}
